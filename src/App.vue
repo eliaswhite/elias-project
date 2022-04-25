@@ -1,15 +1,17 @@
 <script>
 import MenuLateral from "@/components/MenuLateral.vue";
-import CAbeçalho from "@/components/CAbeçalho.vue";
+import BlocoPrincipal from "./components/BlocoPrincipal.vue";
+import BlocoCabecalho from "./components/BlocoCabecalho.vue";
+import BlocoRodape from "./components/BlocoRodape.vue";
 
 export default {
-  components: { MenuLateral, CAbeçalho },
+  components: { MenuLateral, BlocoPrincipal, BlocoCabecalho, BlocoRodape },
 };
 </script>
 <template>
   <MenuLateral />
-  <CAbeçalho />
-  <main id="content">Principal</main>
-  <footer id="footer">Rodapé</footer>
+  <BlocoCabecalho />
+  <BlocoPrincipal />
+  <BlocoRodape />
 </template>
 <style></style>
