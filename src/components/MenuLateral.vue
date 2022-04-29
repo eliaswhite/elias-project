@@ -12,4 +12,6 @@ export default {};
     </ul>
   </aside>
 </template>
+
 <style></style>
+<img src="@/assets/img/atleticomg.png">

@@ -3,13 +3,14 @@ export default {};
 </script>
 <template>
   <main id="content">
-    <article class="block">Cássio</article>
-    <article class="block">Fagner</article>
-    <article class="block">Paulinho</article>
-    <article class="block">Maycon</article>
-    <article class="block">Renato Augusto</article>
-    <article class="block">Róger Guedes</article>
-    <article class="blockead">Ola</article>
+    <div class="blocos">
+      <p>Transferencia</p>
+      <div class="bloco-interno"></div>
+      <p>Noticias</p>
+      <div class="bloco-interno"></div>
+    </div>
+    <!-- <article class="block">Transferencias</article>
+    <article class="block">Últimas Notícias</article> -->
   </main>
 </template>
 <style></style>

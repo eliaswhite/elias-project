@@ -2,6 +2,6 @@
 export default {};
 </script>
 <template>
-  <header id="header">Cabeçalho</header>
+  <header id="header">Futestatics</header>
 </template>
 <style></style>

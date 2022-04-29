@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
+  background-color: gray;
 }
 
 #app {
@@ -8,29 +9,46 @@ body {
   display: grid;
   grid-template-columns: 15% 1fr;
   grid-template-rows: 10% auto 10%;
-  grid-template-areas: 
+  grid-template-areas:
     "header header"
     "sidenav content"
     "footer footer";
 }
 
-#header, #content, #sidenav, #footer {
-  border: 1px solid green;
-}
 
 #header {
-  grid-area: header;
+  position: absolute;
+  width: 916px;
+  height: 21px;
+  left: 592px;
+  top: 42px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
 }
 #content {
   grid-area: content;
   display: flex;
   flex-wrap: wrap;
+  position: absolute;
+  width: 791px;
+  height: 299px;
+  left: 304px;
+  top: 258px;
 }
 #footer {
   grid-area: footer;
 }
 #sidenav {
-  grid-area: sidenav;
+  position: absolute;
+  width: 238px;
+  height: 1024px;
+  left: 0px;
+  top: -9px;
+  background: #2fb84d;
 }
 
 .block {
@@ -50,3 +68,11 @@ body {
   padding: 20px;
   margin: 10px;
 }
+
+.bloco-interno {
+  background-color: white;
+  width: 900px;
+  height: 250px;
+  border: 1px solid black;
+}
+
