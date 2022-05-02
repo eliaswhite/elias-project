@@ -3,15 +3,10 @@ export default {};
 </script>
 <template>
   <aside id="sidenav">
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-      <li>Item 5</li>
-    </ul>
+    <img src="@/assets/img/atleticomg.png" /><br>
+    <img src="@/assets/img/avai-fc-logo-escudo-1 1.png" /><br>
+    <img src="@/assets/img/logo-cap 1.png" /><br>
+    <img src="@/assets/" alt="">
   </aside>
 </template>
-
 <style></style>
-<img src="@/assets/img/atleticomg.png">
