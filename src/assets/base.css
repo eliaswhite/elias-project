@@ -10,11 +10,10 @@ body {
   grid-template-columns: 15% 1fr;
   grid-template-rows: 10% auto 10%;
   grid-template-areas:
-    "header header"
+    "sidenav header"
     "sidenav content"
-    "footer footer";
+    "sidenav footer";
 }
-
 
 #header {
   position: absolute;
@@ -43,12 +42,20 @@ body {
   grid-area: footer;
 }
 #sidenav {
-  position: absolute;
-  width: 238px;
-  height: 1024px;
-  left: 0px;
-  top: -9px;
+  grid-area: sidenav;
   background: #2fb84d;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+  padding-top: 40%;
+}
+
+#sidenav > img {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
 }
 
 .block {
