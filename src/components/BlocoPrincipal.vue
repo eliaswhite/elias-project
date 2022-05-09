@@ -4,12 +4,16 @@ export default {};
 <template>
   <main id="content">
     <div class="blocos">
-      <p>Transferencia</p>
-      <div class="bloco-interno"></div>
+      <p>Resultados</p>
+      <div class="bloco-interno">
+        <p>fkkasjdkfjskda</p>
+      </div>
       <p>Noticias</p>
-      <div class="bloco-interno"></div>
+      <div class="bloco-interno">
+        <p>djfkdajkfjakj</p>
+      </div>
     </div>
-    <!-- <article class="block">Transferencias</article>
+    <!-- <article class="block">  Resultados</article>
     <article class="block">Últimas Notícias</article> -->
   </main>
 </template>

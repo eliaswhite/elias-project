@@ -77,10 +77,22 @@ body {
 }
 
 .bloco-interno {
-  background-color: white;
+  background-color: rgb(250, 241, 241);
   width: 900px;
   height: 250px;
   border: 1px solid black;
   
 }
 
+#content ,p {
+font-family: Georgia, serif;
+font-size: 25px;
+letter-spacing: 1.8px;
+word-spacing: 0px;
+color: #160e1a;
+font-weight: normal;
+text-decoration: underline solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+  }
