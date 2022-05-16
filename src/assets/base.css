@@ -31,15 +31,12 @@ body {
 #content {
   grid-area: content;
   display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  width: 791px;
-  height: 299px;
-  left: 304px;
-  top: 258px;
-}
-#footer {
-  grid-area: footer;
+  flex-wrap: wra        <p>
+  Avaí 2x1 Coritiba // Fortaleza 1x1 São Paulo Juventude 1x1
+  Internacional // Red Bull Bragantino 0x1 Corinthians Santos 4x1 Cuiabá
+  // Atlético-GO 0x1 Goiás Palmeiras 1x1 Fluminense // Flamengo 0x1
+  Botafogo Athletico-PR 1x0 Ceará // Atlético-MG 1x2 América-MG
+</p>ter;
 }
 #sidenav {
   grid-area: sidenav;
@@ -76,10 +73,18 @@ body {
   margin: 10px;
 }
 
-.bloco-interno {
+.bloco-internoa {
   background-color: rgb(250, 241, 241);
-  width: 900px;
-  height: 250px;
+  width: 800px;
+  height: 295px;
+  border: 1px solid black;
+  
+}
+
+.bloco-internob {
+  background-color: rgb(250, 241, 241);
+  width: 800px;
+  height: 150px;
   border: 1px solid black;
   
 }

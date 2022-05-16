@@ -4,20 +4,22 @@ export default {};
 <template>
   <main id="content">
     <div class="blocos">
-      <p>Partidas</p>
-      <div class="bloco-interno">
-        <p>
-          Avaí 2x1 Coritiba // Fortaleza 1x1 São Paulo <br />
-          Juventude 1x1 Internacional // Red Bull Bragantino 0x1 Corinthians
-          <br />
-          Santos 4x1 Cuiabá // Atlético-GO 0x1 Goiás <br />
-          Palmeiras 1x1 Fluminense // Flamengo 0x1 Botafogo <br />
-          Athletico-PR 1x0 Ceará // Atlético-MG 1x2 América-MG
-        </p>
+      <p>Últimas Resultados</p>
+      <div class="bloco-internoa">
+        <div class="resultado">Goiás 1x0 Santos</div>
+        <div class="resultado">Avaí 1x2 Juventude</div>
+        <div class="resultado">Botafogo 3x1 Fortaleza</div>
+        <div class="resultado">Coritiba 1x0 América-MG</div>
+        <div class="resultado">São Paulo 2x1 Cuiabá</div>
+        <div class="resultado">Fluminense 2x1 Athletico-PR</div>
+        <div class="resultado">Atlético-MG 2x0 Atlético-GO</div>
+        <div class="resultado">Internacional 2x2 Corinthians</div>
+        <div class="resultado">Palmeiras 2x0 Red Bull Bragantino</div>
+        <div class="resultado"></div>
       </div>
-      <p>Noticias</p>
-      <div class="bloco-interno">
-        <p>djfkdajkfjakj</p>
+      <p>Notícias</p>
+      <div class="bloco-internob">
+        <img src="@/components/img/cc.png" alt="" />
       </div>
     </div>
     <!-- <article class="block">Partidas</article>

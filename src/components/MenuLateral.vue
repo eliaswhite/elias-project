@@ -29,14 +29,16 @@ export default {
           time: "Corinthians",
           flag: new URL("./img/cor.png", import.meta.url).href,
         },
+
+        {
+          time: "Coritiba",
+          flag: new URL("./img/coxa.png", import.meta.url).href,
+        },
         {
           time: "Flamengo",
           flag: new URL("./img/fla.png", import.meta.url).href,
         },
-        {
-          time: "Fluminense",
-          flag: new URL("./img/flu.png", import.meta.url).href,
-        },
+
         {
           time: "Fortaleza",
           flag: new URL("./img/for.png", import.meta.url).href,
